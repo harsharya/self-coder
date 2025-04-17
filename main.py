@@ -7,7 +7,7 @@ import os
 import json
 load_dotenv()
 
-client =  genai.Client(api_key='AIzaSyB0UysnEdOkBrdBPzmgliovbNSnICtXwvk')
+client =  genai.Client(api_key='')
 
 def run_command(command):
     result=os.system(command=command)
